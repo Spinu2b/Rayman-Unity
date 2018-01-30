@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: 6845511f61ae7d94486d109730498812
+timeCreated: 1517158846
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Astro_00_0x526B8E4_0
+    100002: Astro_00_0x526B8E4_1
+    100004: Astro_00_0x526BEE0_0
+    100006: Astro_00_0x526CBEC_0
+    100008: Astro_00_0x526CBEC_1
+    100010: Astro_00_0x526CBEC_10
+    100012: Astro_00_0x526CBEC_11
+    100014: Astro_00_0x526CBEC_12
+    100016: Astro_00_0x526CBEC_13
+    100018: Astro_00_0x526CBEC_14
+    100020: Astro_00_0x526CBEC_15
+    100022: Astro_00_0x526CBEC_16
+    100024: Astro_00_0x526CBEC_17
+    100026: Astro_00_0x526CBEC_18
+    100028: Astro_00_0x526CBEC_19
+    100030: Astro_00_0x526CBEC_2
+    100032: Astro_00_0x526CBEC_20
+    100034: Astro_00_0x526CBEC_21
+    100036: Astro_00_0x526CBEC_22
+    100038: Astro_00_0x526CBEC_23
+    100040: Astro_00_0x526CBEC_3
+    100042: Astro_00_0x526CBEC_4
+    100044: Astro_00_0x526CBEC_5
+    100046: Astro_00_0x526CBEC_6
+    100048: Astro_00_0x526CBEC_7
+    100050: Astro_00_0x526CBEC_8
+    100052: Astro_00_0x526CBEC_9
+    100054: //RootNode
+    400000: Astro_00_0x526B8E4_0
+    400002: Astro_00_0x526B8E4_1
+    400004: Astro_00_0x526BEE0_0
+    400006: Astro_00_0x526CBEC_0
+    400008: Astro_00_0x526CBEC_1
+    400010: Astro_00_0x526CBEC_10
+    400012: Astro_00_0x526CBEC_11
+    400014: Astro_00_0x526CBEC_12
+    400016: Astro_00_0x526CBEC_13
+    400018: Astro_00_0x526CBEC_14
+    400020: Astro_00_0x526CBEC_15
+    400022: Astro_00_0x526CBEC_16
+    400024: Astro_00_0x526CBEC_17
+    400026: Astro_00_0x526CBEC_18
+    400028: Astro_00_0x526CBEC_19
+    400030: Astro_00_0x526CBEC_2
+    400032: Astro_00_0x526CBEC_20
+    400034: Astro_00_0x526CBEC_21
+    400036: Astro_00_0x526CBEC_22
+    400038: Astro_00_0x526CBEC_23
+    400040: Astro_00_0x526CBEC_3
+    400042: Astro_00_0x526CBEC_4
+    400044: Astro_00_0x526CBEC_5
+    400046: Astro_00_0x526CBEC_6
+    400048: Astro_00_0x526CBEC_7
+    400050: Astro_00_0x526CBEC_8
+    400052: Astro_00_0x526CBEC_9
+    400054: //RootNode
+    2100000: default_457__foret_fondetoiles_txy_gf_png_002
+    2100002: default_456__tnt_caisse02_txy_gf_png
+    2100004: default_455__boitier_gf_png
+    2100006: default_454__interieur_roph_controltxy_gf_png
+    2100008: default_453__chaine01txynz_gf_png_001
+    2100010: default_452__chaine01txynz_gf_png
+    2100012: default_451__grillage_txy_nz_gf_png
+    2100014: default_450__petigalion_toyotxy_gf_png
+    2100016: default_449__machine_tapis_txy_gf_png
+    2100018: default_448__machines_clapet_nz_gf_png
+    2100020: default_447__machine_arriere_gf_png
+    2100022: default_446__pirates_porte01txy_gf_png
+    2100024: default_445__machines_rampe01_txynz_gf_png
+    2100026: default_444__mach_canon_boutcanon_nz_gf_png
+    2100028: default_443__bat_amiral_pav3ty_gf_png
+    2100030: default_442__cime_tuy02_txy_gf_png
+    2100032: default_441__pirates_plafondt01txy_gf_png
+    2100034: default_440__pirates_hublot01txy_gf_png
+    2100036: default_439__machine_base_tuyo_txy_gf_png
+    2100038: default_438__machines_pass01_txynz_gf_png
+    2100040: default_437__pirates_trappetxynz_gf_png
+    2100042: default_436__cime_tuy03_txy_gf_png
+    2100044: default_435__pirates_fer01txy_gf_png
+    2100046: default_434__pirates_mas01txy_gf_png
+    2100048: default_433__machines_ferforge_nz_gf_png
+    2100050: default_432__temple_terre_laclave02_ty_gf_png
+    2100052: default_431__temple_terre_laclave_txy_gf_png
+    2300000: Astro_00_0x526B8E4_0
+    2300002: Astro_00_0x526B8E4_1
+    2300004: Astro_00_0x526BEE0_0
+    2300006: Astro_00_0x526CBEC_0
+    2300008: Astro_00_0x526CBEC_1
+    2300010: Astro_00_0x526CBEC_10
+    2300012: Astro_00_0x526CBEC_11
+    2300014: Astro_00_0x526CBEC_12
+    2300016: Astro_00_0x526CBEC_13
+    2300018: Astro_00_0x526CBEC_14
+    2300020: Astro_00_0x526CBEC_15
+    2300022: Astro_00_0x526CBEC_16
+    2300024: Astro_00_0x526CBEC_17
+    2300026: Astro_00_0x526CBEC_18
+    2300028: Astro_00_0x526CBEC_19
+    2300030: Astro_00_0x526CBEC_2
+    2300032: Astro_00_0x526CBEC_20
+    2300034: Astro_00_0x526CBEC_21
+    2300036: Astro_00_0x526CBEC_22
+    2300038: Astro_00_0x526CBEC_23
+    2300040: Astro_00_0x526CBEC_3
+    2300042: Astro_00_0x526CBEC_4
+    2300044: Astro_00_0x526CBEC_5
+    2300046: Astro_00_0x526CBEC_6
+    2300048: Astro_00_0x526CBEC_7
+    2300050: Astro_00_0x526CBEC_8
+    2300052: Astro_00_0x526CBEC_9
+    2300054: //RootNode
+    3300000: Astro_00_0x526B8E4_0
+    3300002: Astro_00_0x526B8E4_1
+    3300004: Astro_00_0x526BEE0_0
+    3300006: Astro_00_0x526CBEC_0
+    3300008: Astro_00_0x526CBEC_1
+    3300010: Astro_00_0x526CBEC_10
+    3300012: Astro_00_0x526CBEC_11
+    3300014: Astro_00_0x526CBEC_12
+    3300016: Astro_00_0x526CBEC_13
+    3300018: Astro_00_0x526CBEC_14
+    3300020: Astro_00_0x526CBEC_15
+    3300022: Astro_00_0x526CBEC_16
+    3300024: Astro_00_0x526CBEC_17
+    3300026: Astro_00_0x526CBEC_18
+    3300028: Astro_00_0x526CBEC_19
+    3300030: Astro_00_0x526CBEC_2
+    3300032: Astro_00_0x526CBEC_20
+    3300034: Astro_00_0x526CBEC_21
+    3300036: Astro_00_0x526CBEC_22
+    3300038: Astro_00_0x526CBEC_23
+    3300040: Astro_00_0x526CBEC_3
+    3300042: Astro_00_0x526CBEC_4
+    3300044: Astro_00_0x526CBEC_5
+    3300046: Astro_00_0x526CBEC_6
+    3300048: Astro_00_0x526CBEC_7
+    3300050: Astro_00_0x526CBEC_8
+    3300052: Astro_00_0x526CBEC_9
+    3300054: //RootNode
+    4300000: Astro_00_0x526CBEC_23
+    4300002: Astro_00_0x526CBEC_22
+    4300004: Astro_00_0x526CBEC_21
+    4300006: Astro_00_0x526CBEC_20
+    4300008: Astro_00_0x526CBEC_19
+    4300010: Astro_00_0x526CBEC_18
+    4300012: Astro_00_0x526CBEC_17
+    4300014: Astro_00_0x526CBEC_16
+    4300016: Astro_00_0x526CBEC_15
+    4300018: Astro_00_0x526CBEC_14
+    4300020: Astro_00_0x526CBEC_13
+    4300022: Astro_00_0x526CBEC_12
+    4300024: Astro_00_0x526CBEC_11
+    4300026: Astro_00_0x526CBEC_10
+    4300028: Astro_00_0x526CBEC_9
+    4300030: Astro_00_0x526CBEC_8
+    4300032: Astro_00_0x526CBEC_7
+    4300034: Astro_00_0x526CBEC_6
+    4300036: Astro_00_0x526CBEC_5
+    4300038: Astro_00_0x526CBEC_4
+    4300040: Astro_00_0x526CBEC_3
+    4300042: Astro_00_0x526CBEC_2
+    4300044: Astro_00_0x526CBEC_1
+    4300046: Astro_00_0x526CBEC_0
+    4300048: Astro_00_0x526BEE0_0
+    4300050: Astro_00_0x526B8E4_1
+    4300052: Astro_00_0x526B8E4_0
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

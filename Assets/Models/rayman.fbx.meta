@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: 2d7cf30284c1e0e4cb541ca92e3d7c71
+timeCreated: 1517078926
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: finger_1_1.L
+    100004: finger_1_1.R
+    100006: finger_1_2.L
+    100008: finger_1_2.R
+    100010: finger_1_3.L
+    100012: finger_1_3.R
+    100014: finger_1_4.L
+    100016: finger_1_4.L_end
+    100018: finger_1_4.R
+    100020: finger_1_4.R_end
+    100022: finger_2_1.L
+    100024: finger_2_1.R
+    100026: finger_2_2.L
+    100028: finger_2_2.R
+    100030: finger_2_3.L
+    100032: finger_2_3.L_end
+    100034: finger_2_3.R
+    100036: finger_2_3.R_end
+    100038: finger_3_1.L
+    100040: finger_3_1.R
+    100042: finger_3_2.L
+    100044: finger_3_2.R
+    100046: finger_3_3.L
+    100048: finger_3_3.R
+    100050: finger_3_4.L
+    100052: finger_3_4.L_end
+    100054: finger_3_4.R
+    100056: finger_3_4.R_end
+    100058: hair_left_1
+    100060: hair_left_2
+    100062: hair_left_3
+    100064: hair_left_3_end
+    100066: hair_right_1
+    100068: hair_right_2
+    100070: hair_right_3_1_1
+    100072: hair_right_3_1_2
+    100074: hair_right_3_1_2_end
+    100076: hair_right_3_2_1
+    100078: hair_right_3_2_2
+    100080: hair_right_3_2_2_end
+    100082: hand.L
+    100084: hand.R
+    100086: head
+    100088: helicopter
+    100090: helicopter_end
+    100092: leg.L
+    100094: leg.L_end
+    100096: leg.R
+    100098: leg.R_end
+    100100: main
+    100102: R2_eyes_rayman2
+    100104: //RootNode
+    100106: thumb1.L
+    100108: thumb1.R
+    100110: thumb2.L
+    100112: thumb2.R
+    100114: thumb3.L
+    100116: thumb3.L_end
+    100118: thumb3.R
+    100120: thumb3.R_end
+    100122: torso_bottom
+    100124: torso_bottom_end
+    100126: torso_up
+    400000: Armature
+    400002: finger_1_1.L
+    400004: finger_1_1.R
+    400006: finger_1_2.L
+    400008: finger_1_2.R
+    400010: finger_1_3.L
+    400012: finger_1_3.R
+    400014: finger_1_4.L
+    400016: finger_1_4.L_end
+    400018: finger_1_4.R
+    400020: finger_1_4.R_end
+    400022: finger_2_1.L
+    400024: finger_2_1.R
+    400026: finger_2_2.L
+    400028: finger_2_2.R
+    400030: finger_2_3.L
+    400032: finger_2_3.L_end
+    400034: finger_2_3.R
+    400036: finger_2_3.R_end
+    400038: finger_3_1.L
+    400040: finger_3_1.R
+    400042: finger_3_2.L
+    400044: finger_3_2.R
+    400046: finger_3_3.L
+    400048: finger_3_3.R
+    400050: finger_3_4.L
+    400052: finger_3_4.L_end
+    400054: finger_3_4.R
+    400056: finger_3_4.R_end
+    400058: hair_left_1
+    400060: hair_left_2
+    400062: hair_left_3
+    400064: hair_left_3_end
+    400066: hair_right_1
+    400068: hair_right_2
+    400070: hair_right_3_1_1
+    400072: hair_right_3_1_2
+    400074: hair_right_3_1_2_end
+    400076: hair_right_3_2_1
+    400078: hair_right_3_2_2
+    400080: hair_right_3_2_2_end
+    400082: hand.L
+    400084: hand.R
+    400086: head
+    400088: helicopter
+    400090: helicopter_end
+    400092: leg.L
+    400094: leg.L_end
+    400096: leg.R
+    400098: leg.R_end
+    400100: main
+    400102: R2_eyes_rayman2
+    400104: //RootNode
+    400106: thumb1.L
+    400108: thumb1.R
+    400110: thumb2.L
+    400112: thumb2.R
+    400114: thumb3.L
+    400116: thumb3.L_end
+    400118: thumb3.R
+    400120: thumb3.R_end
+    400122: torso_bottom
+    400124: torso_bottom_end
+    400126: torso_up
+    2100000: rayman2
+    2100002: HelicopterMaterial
+    4300000: R2_eyes_rayman2
+    7400000: Armature|AirFlipAnimation
+    7400002: Armature|ArmatureAction
+    7400004: Armature|FallingAnimation
+    7400006: Armature|GroundRollAnimation
+    7400008: Armature|HelicopterAnimation
+    7400010: Armature|IdleAnimation
+    7400012: Armature|JumpFallingAnimation
+    7400014: Armature|OriginalRunAnimation
+    7400016: Armature|RaisingAnimation
+    7400018: Armature|RunAnimation
+    7400020: Armature|RunJumpAnimation
+    7400022: Armature|FallingAnimation.001
+    7400024: Armature|ToExportFixScaleAction
+    9500000: //RootNode
+    13700000: R2_eyes_rayman2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HelicopterMaterial
+    second: {fileID: 2100000, guid: c60f345b70148c04081bcb0276fd3de7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rayman2
+    second: {fileID: 2100000, guid: 6e56c91ce492800438f5d2c16551dbfc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|AirFlipAnimation
+      takeName: Armature|AirFlipAnimation
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|FallingAnimation
+      takeName: Armature|FallingAnimation
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|GroundRollAnimation
+      takeName: Armature|GroundRollAnimation
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.122672796
+        functionName: PlayGroundRoll
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|HelicopterAnimation
+      takeName: Armature|HelicopterAnimation
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: PlayHelicopter
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|IdleAnimation
+      takeName: Armature|IdleAnimation
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|JumpFallingAnimation
+      takeName: Armature|JumpFallingAnimation
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RaisingAnimation
+      takeName: Armature|RaisingAnimation
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: PlayJump
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RunAnimation
+      takeName: Armature|RunAnimation
+      firstFrame: 0
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.0043196543
+        functionName: PlayFootstep
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.49892008
+        functionName: PlayFootstep
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RunJumpAnimation
+      takeName: Armature|RunJumpAnimation
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: PlayRunJump
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
