@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour {
 	private float helicopterDescendingSpeed = -1.0f;
 
 	private float helicopterMovingSpeed = 6.0f;
-	private float normalMovingSpeed = 13.0f;
+	private float normalMovingSpeed = 10.0f;
 
 	public AudioClip helicopterStopSound;
 
@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		float horizontalAxis = Input.GetAxisRaw ("Horizontal");
 		float verticalAxis = Input.GetAxisRaw ("Vertical");
 		bool jump = Input.GetButtonDown ("Jump");
