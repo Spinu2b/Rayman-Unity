@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2d7cf30284c1e0e4cb541ca92e3d7c71
-timeCreated: 1517948098
+timeCreated: 1519556208
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -139,14 +139,16 @@ ModelImporter:
     7400000: Armature|AirFlipAnimation
     7400002: Armature|FallingAnimation
     7400004: Armature|GroundRollAnimation
-    7400006: Armature|HelicopterAnimation
-    7400008: Armature|IdleAnimation
-    7400010: Armature|JumpFallingAnimation
-    7400012: Armature|RaisingAnimation
-    7400014: Armature|RunAnimation
-    7400016: Armature|RunJumpAnimation
-    7400018: Armature|SideWalkLeftAnimation
-    7400020: Armature|SideWalkRightAnimation
+    7400006: Armature|HangingOnAnimation
+    7400008: Armature|HelicopterAnimation
+    7400010: Armature|IdleAnimation
+    7400012: Armature|JumpFallingAnimation
+    7400014: Armature|RaisingAnimation
+    7400016: Armature|RaisingHangingAnimation
+    7400018: Armature|RunAnimation
+    7400020: Armature|RunJumpAnimation
+    7400022: Armature|SideWalkLeftAnimation
+    7400024: Armature|SideWalkRightAnimation
     9500000: //RootNode
     13700000: R2_eyes_rayman2
   externalObjects:
@@ -271,6 +273,34 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
+      name: Armature|HangingOnAnimation
+      takeName: Armature|HangingOnAnimation
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
       name: Armature|HelicopterAnimation
       takeName: Armature|HelicopterAnimation
       firstFrame: 0
@@ -366,6 +396,34 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RaisingHangingAnimation
+      takeName: Armature|RaisingHangingAnimation
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

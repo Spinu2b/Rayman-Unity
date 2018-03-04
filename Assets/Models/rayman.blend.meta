@@ -111,6 +111,7 @@ ModelImporter:
     7400004: FallingAnimation
     7400006: GroundRollAnimation
     7400008: HelicopterAnimation
+    7400010: HangingOnAnimation
     9500000: //RootNode
     13700000: R2_eyes_rayman2
   externalObjects: {}

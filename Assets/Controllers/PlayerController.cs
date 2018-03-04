@@ -19,6 +19,12 @@ public class PlayerController : MonoBehaviour {
 	private float helicopterMovingSpeed = 6.0f;
 	private float normalMovingSpeed = 10.0f;
 
+	private float horizontalAxis;
+	private float verticalAxis;
+	private bool jump;
+	private bool isGrounded;
+	private bool isUsingHelicopter;
+
 	public AudioClip helicopterStopSound;
 
 	// Use this for initialization
@@ -36,7 +42,18 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	bool IsGrounded() {
+		Debug.DrawRay(transform.position, -Vector3.up * Mathf.Abs(distToGround + 0.1f), Color.green);
 		return Physics.Raycast(transform.position, -Vector3.up, distToGround + 0.1f) || Mathf.Abs(rigidbody.velocity.y) < 0.1f;
+	}
+
+	bool IsGrabbingEdge() {
+		int raycastIterations = 1;
+		Vector3 headPosition = transform.position;
+		headPosition.Set (headPosition.x, headPosition.y + 1f, headPosition.z);
+		for (int i = 0; i < raycastIterations; i++) {
+			Debug.DrawRay (headPosition, Quaternion.AngleAxis(0, Vector3.left) * (Vector3.forward * 0.7f), Color.green);
+		}
+		return false;
 	}
 
 	bool InputTyped() {
@@ -52,13 +69,18 @@ public class PlayerController : MonoBehaviour {
 		return right ? angle + rotation : 360f - angle + rotation;
 	}
 
-	// Update is called once per frame
-	void FixedUpdate () {
-		float horizontalAxis = Input.GetAxisRaw ("Horizontal");
-		float verticalAxis = Input.GetAxisRaw ("Vertical");
-		bool jump = Input.GetButtonDown ("Jump");
-		bool isGrounded = IsGrounded ();
+	void GetInputs() {
+		horizontalAxis = Input.GetAxisRaw ("Horizontal");
+		verticalAxis = Input.GetAxisRaw ("Vertical");
+		jump = Input.GetButtonDown ("Jump");
+	}
 
+	void GetCircumstances() {
+		isGrounded = IsGrounded ();
+		isUsingHelicopter = animator.GetBool ("IsUsingHelicopter");
+	}
+
+	void CalculateMovingSpeedAndApplyRotation() {
 		Vector3 forwardFlatVelocity = new Vector3 (horizontalAxis, 0, 0);
 		Vector3 sideFlatVelocity = new Vector3 (0, 0, verticalAxis);
 		Vector3 resultFlatVelocity = forwardFlatVelocity + sideFlatVelocity;
@@ -68,15 +90,22 @@ public class PlayerController : MonoBehaviour {
 		resultVelocity *= playerSpeedMultiplier;
 		resultVelocity = new Vector3 (resultVelocity.x, rigidbody.velocity.y, resultVelocity.z);
 		rigidbody.velocity = resultVelocity;
+		if (InputTyped ()) {
+			model.transform.rotation = Quaternion.Euler (model.transform.rotation.x,
+				GetFlatVelocityAbsoluteAngle (resultFlatVelocity),
+				model.transform.rotation.z);
+		}
+	}
 
-		bool isUsingHelicopter = animator.GetBool ("IsUsingHelicopter");
-
+	void SetAnimatorParameters() {
 		animator.SetFloat ("FlatSpeedAbsoluteValue", new Vector3(rigidbody.velocity.x, 0, rigidbody.velocity.z).magnitude);
 		animator.SetBool ("IsGrounded", isGrounded);
 		animator.SetBool ("JumpPressed", jump);
+		animator.SetFloat ("VerticalSpeedValue", rigidbody.velocity.y);
+	}
 
+	void HandleMovementCases() {
 		if (jump && isGrounded) {
-			Debug.Log ("JUMPED" + rigidbody.position.x.ToString());
 			rigidbody.velocity = new Vector3(rigidbody.velocity.x, playerJumpStrength, rigidbody.velocity.z);
 		}
 
@@ -86,7 +115,7 @@ public class PlayerController : MonoBehaviour {
 		}
 
 		if (jump && isUsingHelicopter) {
-			AudioSource.PlayClipAtPoint (helicopterStopSound, transform.position, 0.75f);
+			//AudioSource.PlayClipAtPoint (helicopterStopSound, transform.position, 0.75f);
 		}
 
 		if (isGrounded || (jump && isUsingHelicopter)) {
@@ -100,13 +129,15 @@ public class PlayerController : MonoBehaviour {
 		} else {
 			playerSpeedMultiplier = normalMovingSpeed;
 		}
+	}
 
-		animator.SetFloat ("VerticalSpeedValue", rigidbody.velocity.y);
-
-		if (InputTyped ()) {
-			model.transform.rotation = Quaternion.Euler (model.transform.rotation.x,
-				GetFlatVelocityAbsoluteAngle (resultFlatVelocity),
-				model.transform.rotation.z);
-		}
+	// Update is called once per frame
+	void FixedUpdate () {
+		GetInputs ();
+		GetCircumstances ();
+		CalculateMovingSpeedAndApplyRotation ();
+		SetAnimatorParameters ();
+		HandleMovementCases ();
+		IsGrabbingEdge ();
 	}
 }
